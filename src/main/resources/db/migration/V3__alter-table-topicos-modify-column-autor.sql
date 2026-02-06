@@ -1,0 +1,2 @@
+ALTER TABLE topicos RENAME COLUMN autor TO autor_id;
+ALTER TABLE topicos MODIFY COLUMN autor_id BIGINT;
